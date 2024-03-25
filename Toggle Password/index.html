@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="Enter Name"> 
+    <label >Username</label> <br>
+    <input id = "pass" type="password" placeholder="Enter Password">
+    <input id="check" type="checkbox" >
+    <label >Show Password</label>
+</body>
+<script>
+    check.onclick = togglepassword;
+    function togglepassword () {
+        if (check.checked) return pass.type = "text";
+        else return pass.type = "password"
+    }
+</script>
+</html>
